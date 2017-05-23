@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+$base_font: helvetica;
+$page-bg-color: black;
+$page-text-color: white;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@import "normalize";
+@import "navigation";
+@import "hero";
+@import "cards";
+@import "destination_table";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $page-bg-color;
+  color:$page-text-color;
+  font-family: $base_font;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: $page-text-color;
+}
+
+.page-row {
+  padding: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}

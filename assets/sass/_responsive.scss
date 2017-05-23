@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+  .bird {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .bird {
+    display: none;
+  }
+  .population {
+    display: none;
+  }
+}
